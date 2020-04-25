@@ -2,13 +2,39 @@ form span{
     color: red;
 }
 
+button{
+    padding: .75em;
+    border-radius: .5em;
+    background-color: rgb(9, 65, 9);
+    color: rgb(182, 9, 182);
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+h1, form label, form button, form input{
+    font-family: 'Comic Neue', cursive;
+}
+
+button:hover{
+    background-color: rgb(15, 35, 12);
+}
+
+h1{
+    text-align: center;
+}
+
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 input[type=text]{
     margin-bottom: 1em;
 }
 
-label{
-    display: inline-block;
+form label{
     margin-right: 2em;
+    display: inline-block;
     text-align: right;
     width: 20%
 }
